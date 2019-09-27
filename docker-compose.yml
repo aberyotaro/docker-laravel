@@ -22,7 +22,7 @@ services:
     depends_on:
       - app
     ports:
-      - 10080:80
+      - 20080:80
     volumes:
       - ./src:/work
       - ./logs:/var/log/nginx
@@ -32,7 +32,7 @@ services:
   db: #データベース
     image: mysql:8.0
     ports:
-      - 13306:3306
+      - 23306:3306
     volumes:
       - db-store:/var/lib/mysql
       - ./logs:/var/log/mysql
