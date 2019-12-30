@@ -30,7 +30,7 @@ services:
     environment:
       - TZ=${TZ}
   db: #データベース
-    image: mysql:8.0
+    image: mysql:5.7
     ports:
       - 23306:3306
     volumes:
