@@ -8,6 +8,6 @@
 1. git clone https://github.com/laravel/laravel.git .
 1. docker-compose exec app ash
 1. composer install
-1. cp .env-example .env
+1. cp .env.example .env
 1. php artisan key:generate
 
